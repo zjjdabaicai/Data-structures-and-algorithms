@@ -12,6 +12,12 @@ public class ViolenceMatch {
     }
 
 
+    /**
+     * 暴力匹配
+     * @param str1 源字符串
+     * @param str2 要查找的字符串
+     * @return
+     */
     public static int violenceMatch(String str1, String str2) {
 
         char[] s1 = str1.toCharArray();
